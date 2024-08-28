@@ -6,14 +6,14 @@
 ```
 python main.py -h
 ```
-можно увидеть какие команды доступны для данного парсера
+можно увидеть какие команды доступны для данного парсера  
 ![image](https://github.com/user-attachments/assets/57059c41-1448-4cc0-801a-5db0caea0d67)
 
 ## Используемые технологии:
-Python
-Django
-bs4
-argparse
+Python  
+Django  
+bs4  
+argparse  
 
 ## Автор
 Автор: Тогузов А. А.
