@@ -17,3 +17,8 @@ EXPECTED_STATUS = {
 LIST_OF_STATUS = [[[
     *set(value for values in EXPECTED_STATUS.values() for value in values)
 ]]]
+LOG_DIR = BASE_DIR / 'logs'  # Создание директории для логов
+LOG_FILE = LOG_DIR / 'parser.log'  # Создание файла для логов
+LXML = 'lxml'
+# Регулярное выражение для поиска версии Python и её статуса в тексте ссылки
+PATTERN = r'Python (?P<version>\d\.\d+) \((?P<status>.*)\)'
